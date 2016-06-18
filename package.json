@@ -1,0 +1,27 @@
+{
+  "name": "tk104-reply",
+  "version": "1.0.0",
+  "description": "GPS TK104 SMS auto-reply",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdalmut/tk104-reply.git"
+  },
+  "keywords": [
+    "tk104",
+    "reply",
+    "sms"
+  ],
+  "author": "Walter Dal Mut <walter.dalmut@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wdalmut/tk104-reply/issues"
+  },
+  "homepage": "https://github.com/wdalmut/tk104-reply#readme",
+  "dependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
