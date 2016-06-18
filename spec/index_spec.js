@@ -61,4 +61,15 @@ describe("tk104 reply", function() {
 
     expect(false).toBe(message);
   });
+
+  it ("should reply with false on missing regex", function() {
+    var message = require('../index')([
+      {
+        "regex": /^sms ok/i,
+        "reply": false
+      }
+    ]).reply("MISSING");
+
+    expect(false).toBe(message);
+  });
 });

@@ -1,6 +1,6 @@
 {
   "name": "tk104-reply",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GPS TK104 SMS auto-reply",
   "main": "index.js",
   "scripts": {

@@ -13,6 +13,8 @@ Tk104.prototype.reply = function(text) {
       return (typeof item.reply === 'function') ? item.reply(this) : item.reply;
     }
   }
+
+  return false;
 }
 
 module.exports = Tk104;
