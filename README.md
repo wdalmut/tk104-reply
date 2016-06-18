@@ -2,15 +2,17 @@
 
 Just a simple wrapper to reply to TK104 SMS
 
-```
+```js
 var tk = require('./tk104-reply')([
   {
-    "regex": /^sms ok/i",
+    "regex": /^sms ok/i,
     "reply": function() {
       return function(pwd) {
         return "sleep" + pwd + " deepshock";
       }
     },
+  },
+  {
     "regex": /^sleep deep ok/i,
     "reply": false
   }
